@@ -83,6 +83,7 @@ main {
 .card__description p {
   color: var(--soft__blue);
   margin-bottom: 15px;
+  font-size: 15px;
 }
 /* Card Icon Styles*/
 .icon {
@@ -131,4 +132,10 @@ main {
 }
 .card__copyright p span {
   color: var(--white);
+}
+/* Responsiveness */
+@media only screen and (max-width: 414px) {
+  .card__description p {
+    font-size: 12px;
+  }
 }
